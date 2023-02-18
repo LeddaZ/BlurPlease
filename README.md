@@ -1,4 +1,4 @@
-# BlurPlease
+# BlurPlease ![DownloadCount](https://img.shields.io/github/downloads/LeddaZ/BlurPlease/total)
 
 ## About
 Magisk module to disable MIUI's low RAM check and get back features such as:
