@@ -1,6 +1,6 @@
 {
-  "version": "v2.0",
-  "versionCode": 10,
-  "zipUrl": "https://raw.githubusercontent.com/Zackptg5/MMT-Extended/install.zip",
-  "changelog": "https://raw.githubusercontent.com/Zackptg5/MMT-Extended/changelog.md"
+  "version": "v1",
+  "versionCode": 1,
+  "zipUrl": "https://github.com/LeddaZ/BlurPlease/releases/download/v1/BlurPlease.zip",
+  "changelog": "https://raw.githubusercontent.com/LeddaZ/BlurPlease/changelog.md"
 }

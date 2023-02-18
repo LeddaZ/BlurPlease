@@ -1,37 +1,23 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+# BlurPlease
 
-<div align="center">
-  <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v2.0-blue.svg?longCache=true&style=popout-square"
-      alt="Version" />
-  <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-January 21, 2022-green.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+## About
+Magisk module to disable MIUI's low RAM check and get back features such as:
+- Background blur in notification shade (hence the name)
+- Split screen with two apps
+- Long press an app in recents for extra features
+- Maybe more?
 
-<div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3>
-</div>
+## Supported devices
+The module has been tested on Redmi Note 9S (`curtana`) with MIUI `V13.0.2.0.SJWEUXM` (Android 12), but it should work with any Xiaomi device that has the low end configuration enabled.
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
-      Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
-    </a>
-  </h3>
-</div>
+If you're not sure whether Xiaomi considers your device as low end, connect the device to your PC and run the following command:
 
-### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+`adb shell getprop ro.config.low_ram.threshold_gb`
+
+If your device has the amount of RAM specified in the output (in GBs) or less, you have low RAM mode enabled. This module sets this prop to false to disable the check entirely.
+
+## Download
+You can download the module [here](https://github.com/LeddaZ/BlurPlease/releases/latest).
+
+## Credits
+[Zackptg5](https://github.com/Zackptg5) for the [MMT-Extended](https://github.com/Zackptg5/MMT-Extended) template.
